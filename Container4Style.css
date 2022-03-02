@@ -1,0 +1,191 @@
+
+body {
+background-color: black;
+
+}
+
+h1 {
+font-family: Helvetica;
+color: white;
+font-size: 3em;
+}
+
+p#one {
+font-family: Helvetica;
+color: white;
+font-size: 20px;
+position: absolute;
+bottom: 0px;
+/* width: 100%; */
+left: 250px;
+padding: 50px;
+}
+
+p#two{
+    font-family: Helvetica;
+    color: white;
+    font-weight: bold;
+    font-size: 35px;
+    position: absolute;
+    top: 200px;
+    /* width: 100%; */
+    left: 950px;
+    padding: 50px;
+}
+
+p#three{
+  font-family: Helvetica;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+p#four{
+  font-family: Helvetica;
+  color: white;
+
+  /* font-weight: bold;
+  font-size: 20px; */
+  /* text-align: center; */
+
+}
+/* creating container of cirlces */
+
+.big-container {
+  background: black;
+
+  /* display: flex;
+  flex-direction: raw; */
+}
+.new-container{
+  background: purple;
+  border: 3px yellow double;
+  width: 320px;
+  height:400px;
+  -webkit-border-radius: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  /* margin: 60px; */
+  position: absolute;
+  padding: 30px;
+  top: 86.5px;
+  left: 900px;
+
+
+}
+
+img {
+  width: 60%;
+  margin: auto;
+  display: block;
+}
+.container {
+      background: #76FD94;
+      width: 770px;
+      height: 400px;
+      -webkit-border-radius: 30px;
+      margin: 60px;
+      padding: 30px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      flex-basis: 30px;
+      justify-content: space-between;
+
+    }
+/* creating circles */
+.container-circle {
+      width: 60px;
+      height: 60px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      background: #76FD94;
+      margin: 40px;
+
+    }
+
+/* .container-circle:hover {
+  background-color: blue;
+} */
+
+
+
+
+#n1:hover {
+  background-color: blue;
+  border: 1px red double;
+}
+
+#n2:hover {
+  background-color: purple;
+}
+
+#n3:hover {
+  background-color: orange;
+}
+
+#n4:hover{
+  background-color: blue;
+}
+
+#n5:hover{
+  background-color: orange;
+}
+
+#n6 {
+  background-color: purple;
+  border: 1px yellow double;
+}
+
+#n7:hover {
+  background-color: orange;
+}
+
+#n8:hover {
+  background-color: blue;
+}
+
+#n9:hover {
+  background-color: purple;
+}
+
+#n10:hover {
+  background-color: orange;
+}
+
+#n11:hover{
+  background-color: purple;
+}
+
+#n12:hover{
+  background-color: blue;
+}
+
+#n13:hover {
+  background-color: orange;
+  border: 1px blue double;
+}
+
+#n14:hover {
+  background-color: blue;
+}
+
+#n15:hover {
+  background-color: orange;
+}
+
+
+/* .textbox {
+  background: white;
+  width: 200px;
+  height: 500px;
+  -webkit-border-radius: 30px;
+  display: flex;
+  position: absolute;
+  margin-left: 500px;
+
+} */

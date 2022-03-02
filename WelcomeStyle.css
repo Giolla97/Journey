@@ -1,0 +1,70 @@
+body {
+background-color: black;
+
+}
+
+h1 {
+font-family: Helvetica;
+color: white;
+font-size: 3em;
+}
+
+p#one {
+font-family: Helvetica;
+color: #76FD94;
+font-size: 70px;
+font-weight: bold;
+/* position: absolute; */
+/* align-items: center; */
+text-align: center;
+/* width: 100%; */
+/* left: 250px; */
+padding: 1px;
+}
+
+p#two{
+    font-family: Helvetica;
+    color: #76FD94;
+    /* font-weight: bold; */
+    font-size: 30px;
+    /* position: absolute; */
+    text-align: center;
+    /* padding: 3px; */
+}
+
+p#text{
+    font-family: Helvetica;
+    color: white;
+    /* font-weight: bold; */
+    font-size: 30px;
+    /* position: absolute; */
+    text-align: center;
+    font-weight: bold;
+
+    /* padding: 3px; */
+}
+
+/* creating container of cirlces */
+.big-container {
+  background: black;
+  height: 500px;
+  width: auto;
+  align-items: center;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.square{
+  background: purple;
+  width: 200px;
+  height: 90px;
+  -webkit-border-radius: 20px;
+  margin: 80px;
+  align-items: center;
+  /* width: 100% */
+
+}
+/* #n1 {
+  background: blue;
+} */

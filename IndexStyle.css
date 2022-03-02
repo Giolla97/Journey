@@ -1,0 +1,90 @@
+body {
+background-color: black;
+
+}
+
+h1 {
+font-family: Helvetica;
+color: white;
+font-size: 3em;
+}
+
+p#one {
+font-family: Helvetica;
+color: white;
+font-size: 20px;
+position: absolute;
+bottom: 0px;
+/* width: 100%; */
+left: 250px;
+padding: 50px;
+}
+
+p#two{
+    font-family: Helvetica;
+    color: #76FD94;
+    font-weight: bold;
+    font-size: 35px;
+    position: absolute;
+    top: 200px;
+    /* width: 100%; */
+    left: 950px;
+    padding: 50px;
+}
+
+/* creating container of cirlces */
+.container {
+      background: #76FD94;
+      width: 770px;
+      height: 125px;
+      -webkit-border-radius: 30px;
+      margin: 60px;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      flex-basis: 30px;
+      justify-content: space-between;
+
+    }
+/* creating circles */
+.container-circle {
+      width: 60px;
+      height: 60px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      background: #76FD94;
+      margin: 30px;
+
+    }
+
+.container-circle {
+  background-color: #76FD94;
+}
+
+    #n1:hover {
+      background-color: blue;
+      border: 1px red double;
+    }
+
+    #n2:hover {
+      background-color: purple;
+    }
+
+    #n3:hover {
+      background-color: orange;
+    }
+
+    #n4:hover {
+      background-color: blue;
+    }
+
+    #n5:hover {
+      background-color: orange;
+    }
+
+
+/* #n1 {
+  background: blue;
+} */
